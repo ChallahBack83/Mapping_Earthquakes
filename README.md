@@ -9,7 +9,7 @@ By mapping all the earthquakes within the last 7 days,
 
 I built tile layers for 3 different maps, choosing Mapbox Outdoors for our third map. This layer highlights the topography, which is what I named the map in the control. Such a view is useful when trying to visualize the environment of the earthquakes.
 
-![closeUp]()
+![closeUp](https://github.com/ChallahBack83/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/mapTopoClose.png)
 
 With the <b>Earthquakes</b> map, which displays all the earthquakes over the last 7 day, already finished through the module, I built two other GeoJSON map layers, Tectonic Plates and Major Earthquakes, by retrieving the data from USGS using d3.json. Within the function for each layer, I built a function to set the style of the map, which in turn required functions to define the color, shape, and size of the markers or lines. This meant I needed to use if statements to return specific colors as well as set the radius of the markers, both based on magnitude.
 
@@ -72,7 +72,7 @@ For the <b>Major Earthquakes</b> layer, which maps only earthquakes greater than
 });
 ```
 
-![popup]()
+![popup](https://github.com/ChallahBack83/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/popup.png)
 
 <b>The Tectonic Plates</b> map is much simpler, defining the lines of the plates. It visualizes the relationship of earthquakes to tectonic plates. To style this map, all I needed to define was the line color and thickness before adding the layer to the map.
 
@@ -91,7 +91,7 @@ For the <b>Major Earthquakes</b> layer, which maps only earthquakes greater than
   });
 ```
 
-![Tectonic] (https://github.com/ChallahBack83/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/mapSatellite.png)
+![Tectonic](https://github.com/ChallahBack83/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/mapSatellite.png)
 
 
 ## In Conclusion
